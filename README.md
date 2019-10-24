@@ -8,8 +8,18 @@ Bellow are a list of common data-structures created in Go with tests, implementa
 
 * ### List
 
-  * Linked List
-  * Dynamic Array
+  * [Linked List](https://en.wikipedia.org/wiki/Linked_list)
+    * The field of each node that contains the address of the next node is called the 'next link' or 'next pointer'.
+    * The 'head' of a list is its first node. The 'tail' of a list may refer either to the rest of the list after the head, or to the last node in the list.
+    * Used in many list, queue, and stack implementations.
+    * Great for creating circular lists.
+    * Can easily model real world objects such as trains.
+    * Used in separate chaining, which is present in certain hashable implementations to deal with hashing collisions.
+    * Often used in the implementation of adjacency lists for graphs.
+  
+  * [Double-Linked List](https://en.wikipedia.org/wiki/Linked_list#Doubly_linked_list)
+    * In a 'doubly linked list', each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').
+    * Takes 2x the memory than a singly linked list.
 
 * ### Queue
 
