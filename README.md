@@ -8,7 +8,7 @@ This project is not intended for use in production applications and is purely fo
 
 Bellow are a list of common data-structures created in Go with tests, implementations are grouped by abstraction and link to their associated wikipedia entry.
 
-Note: Linked List & Stack have been created from scratch to show how they work. Further data structures that make use of linked lists will use Go's  *"container/list"* package - a doubly linked list implementation.
+Base structure types (Linked List, Stack) have been created from scratch to show how they work. Further structures that make use of linked lists will use Go's *"container/list"* package - a doubly linked list implementation that's part of the standard library.
 
 * ### List
 
